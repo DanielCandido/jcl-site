@@ -1,0 +1,85 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans';
+}
+
+.container-bg {
+    width: 100vw;
+    height: 100vh;
+    background-image: url('./assets/bg.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.container-op {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgba(255, 255, 255, 0.519);
+}
+
+.card {
+    width: 90%;
+    background-color: rgba(255, 255, 255, 0.519);
+    max-width: 500px;
+    margin: 10px;
+    height: 60%;
+    z-index: 100;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.profile {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: #333333;
+    margin: 10px 0;
+    background-image: url('./assets/pfl.jpeg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.link {
+    color: #ffffff;
+    font-size: 16px;
+    padding: 8px;
+    margin: 7px;
+    text-decoration: none;
+    background-color: #3a29ce;
+    padding: 5px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 120px;
+    border-radius: 8px;
+}
+
+.wpp {
+    background-color: green;
+}
+
+.link:hover {
+    opacity: 0.9;
+}
+
+.title {
+    font-size: 22px;
+    color: #333333;
+    margin: 7px;
+    font-weight: bold;
+}
+
+.logo {
+    width: 100px;
+}
