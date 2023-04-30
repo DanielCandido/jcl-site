@@ -1,4 +1,5 @@
-body, html {
+body,
+html {
     margin: 0;
     padding: 0;
     font-family: 'Open Sans';
@@ -44,7 +45,7 @@ body, html {
     border-radius: 50%;
     background-color: #333333;
     margin: 10px 0;
-    background-image: url('./assets/pfl.jpeg');
+    background-image: url('./assets/prof.jpeg');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -60,13 +61,10 @@ body, html {
     padding: 5px 10px;
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: flex-start;
     width: 120px;
     border-radius: 8px;
-}
-
-.wpp {
-    background-color: green;
+    height: 30px;
 }
 
 .link:hover {
@@ -82,4 +80,37 @@ body, html {
 
 .logo {
     width: 100px;
+}
+
+.icon {
+    padding: 0 5px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.icon-label {
+    color: #ffffff;
+    line-height: 24px;
+    cursor: pointer;
+}
+
+.wpp {
+    background-color: green;
+}
+
+.facebook {
+    background-color: #3b5998;
+}
+
+.instagram {
+    background: #f09433;
+    background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+    background: -webkit-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+    background: linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f09433', endColorstr='#bc1888', GradientType=1);
+}
+
+.email {
+    background-color: #470063;
 }
