@@ -40,12 +40,12 @@ html {
 }
 
 .profile {
-    width: 80px;
-    height: 80px;
+    width: 150px;
+    height: 150px;
     border-radius: 50%;
     background-color: #333333;
     margin: 10px 0;
-    background-image: url('./assets/prof.jpeg');
+    background-image: url('./assets/profile_cropped.jpeg');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -80,6 +80,7 @@ html {
 
 .logo {
     width: 100px;
+    border-radius: 50%;
 }
 
 .icon {
